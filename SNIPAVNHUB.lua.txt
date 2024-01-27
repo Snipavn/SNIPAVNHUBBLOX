@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "SNIPAVN-HUB",
-    SubTitle = "by SNIPAVN(Lợi Nguyễn)",
+    SubTitle = "by SNIPAVN(Lợi Nguyễn) | Discord : https://dsc.gg/servertipacvn | Youtube : https://youtube.com/@snipavn205",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
