@@ -4,11 +4,11 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "SNIPAVN-HUB",
-    SubTitle = "by SNIPAVN(Lợi Nguyễn) | Discord : https://dsc.gg/servertipacvn | Youtube : https://youtube.com/@snipavn205",
+    SubTitle = "by SNIPAVN(Lợi Nguyễn) | Youtube : https://youtube.com/@snipavn205",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Darker",
+    Theme = "Reder",
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
@@ -2388,7 +2388,7 @@ local posZ = 0
     })
 
     local DropdownSelectWeapon = Tabs.Main:AddDropdown("DropdownSelectWeapon", {
-        Title = "Chọn Weapon",
+        Title = "ChọnWea",
         Values = {'Melee','Sword','Blox Fruit'},
         Multi = false,
         Default = 1,
@@ -2626,7 +2626,7 @@ local posZ = 0
     })
 
     local DropdownMastery = Tabs.Main:AddDropdown("DropdownMastery", {
-        Title = "Chọn Chế Độ Farm",
+        Title = "Chọn Cách Farm",
         Values = {"Level","Near Mobs",},
         Multi = false,
         Default = 1,
