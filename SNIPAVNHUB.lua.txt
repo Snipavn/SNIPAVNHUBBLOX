@@ -2438,7 +2438,7 @@ local posZ = 0
     end)
 
 
-    local ToggleAutoFarmLevel = Tabs.Main:AddToggle("ToggleAutoFarmLevel", {Title = "Auto Farm Level", Default = false })
+    local ToggleAutoFarmLevel = Tabs.Main:AddToggle("ToggleAutoFarmLevel", {Title = "Tự Động Farm Level", Default = false })
     ToggleAutoFarmLevel:OnChanged(function(Value)
         _G.AutoLevel = Value
     end)
@@ -2540,7 +2540,7 @@ local posZ = 0
       end)
 
       Tabs.Main:AddButton({
-        Title = "Redeem Tất Cả Mã",
+        Title = "Redeem Tất Cả Mã(Đã Tự Động Nhập Mã)",
         Description = "Redeem tất cả mã 2exp ...",
         Callback = function()
             UseCode()
@@ -2626,7 +2626,7 @@ local posZ = 0
     })
 
     local DropdownMastery = Tabs.Main:AddDropdown("DropdownMastery", {
-        Title = "Chọn Cách Farm",
+        Title = "Chọn Farm",
         Values = {"Level","Near Mobs",},
         Multi = false,
         Default = 1,
@@ -2638,13 +2638,13 @@ local posZ = 0
         TypeMastery = Value
     end)
 
-    local ToggleMasteryFruit = Tabs.Main:AddToggle("ToggleMasteryFruit", {Title = "Auto BF Mastery", Default = false })
+    local ToggleMasteryFruit = Tabs.Main:AddToggle("ToggleMasteryFruit", {Title = "🍒|Auto Farm Kinh Nghiệm Fruit", Default = false })
     ToggleMasteryFruit:OnChanged(function(Value)
         AutoFarmMasDevilFruit = Value
     end)
     Options.ToggleMasteryFruit:SetValue(false)
 
-    local ToggleMasteryGun = Tabs.Main:AddToggle("ToggleMasteryGun", {Title = "Auto Gun Mastery", Default = false })
+    local ToggleMasteryGun = Tabs.Main:AddToggle("ToggleMasteryGun", {Title = "🔫|Auto Farm Kinh Nghiệm Gun", Default = false })
     ToggleMasteryGun:OnChanged(function(Value)
         AutoFarmMasGun = Value
     end)
