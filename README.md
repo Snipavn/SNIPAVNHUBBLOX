@@ -11,6 +11,6 @@
  
 [![Discord Presence](https://lanyard.cnrad.dev/api/882844895902040104)](https://discord.com/users/882844895902040104)
 
-## Các Phần Mềm Giúp Dễ Tôi Dễ Dàng
+## Các Phần Mềm Giúp Tôi Dễ Dàng Hơn
 
 <p align="left"> <a href="https://github.com/Snipavn"><img src="https://skillicons.dev/icons?i=vscode,replit,github,html,js,bots,nodejs,lua,bash,java,visualstudio"> </a> </p>
