@@ -774,10 +774,6 @@ elseif SelectBoss == "Warden" then
 BossMon = "Warden"
 NameBoss = 'Warden'
 NameQuestBoss = "ImpelQuest"
-CFrameBoss = CFrame.new(--2844.7307128906, 7.4170502891541, 5356.6723632813)
-elseif SelectBoss == "Greybread" then
-NameBoss = 'Greybread'
-BossMon = "Greybread"
 QuestLvBoss = 1
 RewardBoss = "Reward:\n$6,000\n850,000 Exp."
 CFrameBoss = CFrame.new(5278.04932, 2.15167475, 944.101929, 0.220546961, -4.49946401e-06, 0.975376427, -1.95412576e-05, 1, 9.03162072e-06, -0.975376427, -2.10519756e-05, 0.220546961)
@@ -3384,7 +3380,7 @@ spawn(function()
 
 
     if First_Sea then
-		tableBoss = {"The Gorilla King","Bobby","Yeti","Mob Leader","Vice Admiral","Warden","Chief Warden","Swan","Magma Admiral","Fishman Lord","Wysper","Thunder God","Cyborg","Saber Expert","Greybread"}
+		tableBoss = {"The Gorilla King","Bobby","Yeti","Mob Leader","Vice Admiral","Warden","Chief Warden","Swan","Magma Admiral","Fishman Lord","Wysper","Thunder God","Cyborg","Saber Expert"}
 	elseif Second_Sea then
 		tableBoss = {"Diamond","Jeremy","Fajita","Don Swan","Smoke Admiral","Cursed Captain","Darkbeard","Order","Awakened Ice Admiral","Tide Keeper"}
 	elseif Third_Sea then
