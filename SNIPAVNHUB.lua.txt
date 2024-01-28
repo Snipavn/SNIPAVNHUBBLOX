@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "SNIPAVN-HUB",
-    SubTitle = "by SNIPAVN(Lợi Nguyễn) | https://youtube.com/@snipavn205",
+    SubTitle = "by SNIPAVN(Lợi Nguyễn)|https://youtube.com/@snipavn205",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -2504,7 +2504,7 @@ local posZ = 0
         game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy()
     end
 
-    local ToggleMobAura = Tabs.Main:AddToggle("ToggleMobAura", {Title = "Auto Near Mob", Default = false })
+    local ToggleMobAura = Tabs.Main:AddToggle("ToggleMobAura", {Title = "Tự Động Farm Gần Mob", Default = false })
     ToggleMobAura:OnChanged(function(Value)
         _G.AutoNear = Value
     end)
@@ -3169,7 +3169,7 @@ Tabs.Main:AddParagraph({
     Content = "Bone & Cake Prince & "
 })
 
-local ToggleBone = Tabs.Main:AddToggle("ToggleBone", {Title = "Auto Farm Bone", Default = false })
+local ToggleBone = Tabs.Main:AddToggle("ToggleBone", {Title = "Tự Động Farm Xương", Default = false })
 ToggleBone:OnChanged(function(Value)
     _G.AutoBone = Value
 end)
@@ -3240,7 +3240,7 @@ spawn(function()
 end)
 
 
-local ToggleCake = Tabs.Main:AddToggle("ToggleCake", {Title = "Auto Farm Cake Prince", Default = false })
+local ToggleCake = Tabs.Main:AddToggle("ToggleCake", {Title = "Tự Động Farm Cake Prince", Default = false })
 ToggleCake:OnChanged(function(Value)
  _G.CakePrince = Value
 end)
@@ -3320,7 +3320,7 @@ spawn(function()
 
 
 
-    local ToggleVatChatKiDi = Tabs.Main:AddToggle("ToggleVatChatKiDi", {Title = "Auto Farm Ectoplasm", Default = false })
+    local ToggleVatChatKiDi = Tabs.Main:AddToggle("ToggleVatChatKiDi", {Title = "Tự Động Farm Ectoplasm", Default = false })
     ToggleVatChatKiDi:OnChanged(function(Value)
         _G.Ecto = Value
     end)
@@ -3497,7 +3497,7 @@ spawn(function()
         end
 
     local DropdownMaterial = Tabs.Main:AddDropdown("DropdownMaterial", {
-        Title = "Chọn Nguyên Liệu",
+        Title = "Chọn Material",
         Values = MaterialList,
         Multi = false,
         Default = 1,
@@ -3510,7 +3510,7 @@ spawn(function()
     end)
 
 
-    local ToggleMaterial = Tabs.Main:AddToggle("ToggleMaterial", {Title = "Auto Farm Material", Default = false })
+    local ToggleMaterial = Tabs.Main:AddToggle("ToggleMaterial", {Title = "Tự Động Farm Material", Default = false })
 
     ToggleMaterial:OnChanged(function(Value)
         _G.AutoMaterial = Value
